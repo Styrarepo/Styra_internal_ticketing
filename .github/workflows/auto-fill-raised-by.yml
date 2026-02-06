@@ -11,7 +11,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const projectId = "1";
+            const projectId = "U_kgDODr5ugA";
             const fieldId = "256585926";
 
             const author = context.payload.issue.user.login;
